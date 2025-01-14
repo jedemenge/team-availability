@@ -18,13 +18,13 @@ The app was created for authenticating via login.microsoftonline.com using Autho
 > 
 > Looking at the code in src/lib/graph.ts, these are the only API endpoints being called:
 > 
-> /me - Requires User.Read
-> /users/${email} - Requires User.Read.All
-> /me/calendar/getSchedule - Requires Calendars.Read and Calendars.Read.Shared (for reading other users' calendars)
+> - /me - Requires User.Read
+> - /users/${email} - Requires User.Read.All
+> - /me/calendar/getSchedule - Requires Calendars.Read and Calendars.Read.Shared (for reading other users' calendars)
 >
 > So the actively used scopes are:
 > 
-> User.Read
-> User.Read.All
-> Calendars.Read
-> Calendars.Read.Shared
+> - User.Read
+> - User.Read.All
+> - Calendars.Read
+> - Calendars.Read.Shared
