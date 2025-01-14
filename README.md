@@ -1,6 +1,14 @@
 # Team Availability
 Inspect team availability via Microsoft Graph, fully created via Bolt.new
 
+![image](https://github.com/user-attachments/assets/26f9457a-629e-4e7e-93da-7d8fcbc9f92c)
+
+
+
+
+
+
+
 ## Features
 
 Will show available slots for visible employees within availability hours (excluding lunch). At the moment, these event types are simply being ignored by the app: free, tentative, working elsewhere.
