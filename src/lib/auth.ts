@@ -51,8 +51,6 @@ function getMsalConfig(): Configuration {
 export const scopes = [
   'Calendars.Read',
   'Calendars.Read.Shared',
-  'MailboxSettings.Read',
-  'Presence.Read.All',
   'User.Read',
   'User.Read.All'
 ];
