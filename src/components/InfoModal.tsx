@@ -10,7 +10,7 @@ export function InfoModal() {
   const tenantId = localStorage.getItem('tenantId');
   const clientId = localStorage.getItem('clientId');
   const shareableUrl = tenantId && clientId
-    ? `https://guileless-begonia-7f1e00.netlify.app/?tenantId=${tenantId}&clientId=${clientId}`
+    ? `https://teamavailability.netlify.app/?tenantId=${tenantId}&clientId=${clientId}`
     : null;
 
   const handleCopy = async () => {
