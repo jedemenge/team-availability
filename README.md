@@ -3,12 +3,6 @@ Inspect team availability via Microsoft Graph, fully created via Bolt.new
 
 ![image](https://github.com/user-attachments/assets/26f9457a-629e-4e7e-93da-7d8fcbc9f92c)
 
-
-
-
-
-
-
 ## Features
 
 Will show available slots for visible employees within availability hours (excluding lunch). At the moment, these event types are simply being ignored by the app: free, tentative, working elsewhere.
@@ -20,7 +14,7 @@ Will show available slots for visible employees within availability hours (exclu
 
 ## Setup
 
-The app was created for authenticating via login.microsoftonline.com using Authorization Code flow. As such, an app registration within your Entra ID tenant is required. These are the corresponding required API scopes according to Bolt.new:
+The app was created for authenticating via login.microsoftonline.com using Authorization Code flow. As such, an app registration within your Entra ID tenant is required. The user client can be setup using either your own or the [publicly available instance](https://guileless-begonia-7f1e00.netlify.app/), once the correct API scopes have been configured for your app registration. According to Bolt.new:
 
 > Let me analyze the code to determine which Microsoft Graph scopes are actually being used in the application:
 > 
