@@ -170,10 +170,10 @@ function AppContent() {
                   </code>
                 </li>
                 <li>
-                  Replace <span className="font-mono text-sm">YOUR_TENANT_ID</span> with your Azure AD tenant ID
+                  Replace <span className="font-mono text-sm">YOUR_TENANT_ID</span> with your Entra tenant ID
                 </li>
                 <li>
-                  Replace <span className="font-mono text-sm">YOUR_CLIENT_ID</span> with your Azure AD application ID
+                  Replace <span className="font-mono text-sm">YOUR_CLIENT_ID</span> with your Entra application ID
                 </li>
               </ol>
               
@@ -340,7 +340,7 @@ function App() {
                 Configuration Required
               </p>
               <p className="text-red-600 text-sm">
-                The application needs to be configured with the correct Azure AD settings.
+                The application needs to be configured with the correct app registration settings on Entra ID. The app registration should have these API permissions from MS Graph: Calendars.Read, Calendars.Read.Shared, User.Read, User.Read.All.
               </p>
             </div>
             
@@ -350,14 +350,14 @@ function App() {
                 <li>
                   Use the following URL structure to configure the app:
                   <code className="block mt-2 p-3 bg-gray-50 rounded-lg text-sm font-mono break-all">
-                    https://guileless-begonia-7f1e00.netlify.app/?tenantId=YOUR_TENANT_ID&clientId=YOUR_CLIENT_ID
+                    https://teamavailability.netlify.app/?tenantId=YOUR_TENANT_ID&clientId=YOUR_CLIENT_ID
                   </code>
                 </li>
                 <li>
-                  Replace <span className="font-mono text-sm">YOUR_TENANT_ID</span> with your Azure AD tenant ID
+                  Replace <span className="font-mono text-sm">YOUR_TENANT_ID</span> with your Entra tenant ID
                 </li>
                 <li>
-                  Replace <span className="font-mono text-sm">YOUR_CLIENT_ID</span> with your Azure AD application ID
+                  Replace <span className="font-mono text-sm">YOUR_CLIENT_ID</span> with your Entra application ID
                 </li>
               </ol>
               
